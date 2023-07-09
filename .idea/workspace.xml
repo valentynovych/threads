@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4166360-a3fd-4b0b-aeb9-b27ea9929745" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/createThreads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demonThread/DemonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demonThread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demonThread/UserThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stopThread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stopThread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stopThread/MyThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/synchronizedThread/Main.java" afterDir="false" />
+    <list default="true" id="a4166360-a3fd-4b0b-aeb9-b27ea9929745" name="Changes" comment="create test method for theory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/synchronizedCollection/ConcurrentMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/synchronizedCollection/CopyOnWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/synchronizedCollection/SynchronizedCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,13 +56,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.example.synchronizedThread.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.createThreads.Main" />
+  <component name="RunManager" selected="Application.CopyOnWrite">
+    <configuration name="ConcurrentMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.synchronizedCollection.ConcurrentMap" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.createThreads.*" />
+          <option name="PATTERN" value="org.example.synchronizedCollection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyOnWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.synchronizedCollection.CopyOnWrite" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.synchronizedCollection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizedCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.synchronizedCollection.SynchronizedCollection" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.synchronizedCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +102,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.demonThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.stopThread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.stopThread.Main" />
-      <module name="Threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.stopThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,10 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyOnWrite" />
+        <item itemvalue="Application.ConcurrentMap" />
+        <item itemvalue="Application.SynchronizedCollection" />
         <item itemvalue="Application.org.example.synchronizedThread.Main" />
         <item itemvalue="Application.org.example.demonThread.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.example.stopThread.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688848544118</updated>
       <workItem from="1688848545313" duration="67000" />
-      <workItem from="1688904252461" duration="13014000" />
+      <workItem from="1688904252461" duration="18448000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1688848568187</created>
@@ -139,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688848568187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create test method for theory">
+      <created>1688936120890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688936120890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="create test method for theory" />
+    <option name="LAST_COMMIT_MESSAGE" value="create test method for theory" />
   </component>
 </project>

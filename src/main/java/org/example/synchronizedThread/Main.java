@@ -1,5 +1,8 @@
 package org.example.synchronizedThread;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -26,8 +29,10 @@ class MyThread implements Runnable {
 }
 
 class Res {
+    Lock lock = new ReentrantLock();
      int x = 0;
      synchronized void increment() {
+         //lock.lock();
          x = 1;
          for (int i = 1; i < 5; i++) {
              System.out.println(Thread.currentThread().getName() + " - " + x);
@@ -38,5 +43,6 @@ class Res {
                  throw new RuntimeException(e);
              }
          }
+         //lock.unlock();
      }
 }
