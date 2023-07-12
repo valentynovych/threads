@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4166360-a3fd-4b0b-aeb9-b27ea9929745" name="Changes" comment="add synchronized example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atomic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambda/FunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/PrintA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/PrintB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/PrintC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/PrinterChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task1/task1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task3/Main.java" afterDir="false" />
+    <list default="true" id="a4166360-a3fd-4b0b-aeb9-b27ea9929745" name="Changes" comment="create more example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task4/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task4/Race.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +55,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.task3.Main">
-    <configuration name="org.example.lambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lambda.Main" />
+  <component name="RunManager" selected="Application.Race">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.task4.Main" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.lambda.*" />
+          <option name="PATTERN" value="org.example.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.synchronizedThread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.synchronizedThread.Main" />
+    <configuration name="Race" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.task4.Race" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.synchronizedThread.*" />
+          <option name="PATTERN" value="org.example.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Race" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.task3.Main" />
         <item itemvalue="Application.org.example.task2.Main" />
         <item itemvalue="Application.org.example.task1.Main" />
-        <item itemvalue="Application.org.example.synchronizedThread.Main" />
-        <item itemvalue="Application.org.example.lambda.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +142,10 @@
       <workItem from="1688848545313" duration="67000" />
       <workItem from="1688904252461" duration="19175000" />
       <workItem from="1689001923627" duration="16647000" />
-      <workItem from="1689099822273" duration="3698000" />
+      <workItem from="1689099822273" duration="7796000" />
+      <workItem from="1689145041000" duration="3756000" />
+      <workItem from="1689150773925" duration="1033000" />
+      <workItem from="1689186204756" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1688848568187</created>
@@ -174,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688942620046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create more example">
+      <created>1689106706229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689106706229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +185,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="create test method for theory" />
     <MESSAGE value="add synchronized example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add synchronized example" />
+    <MESSAGE value="create more example" />
+    <option name="LAST_COMMIT_MESSAGE" value="create more example" />
   </component>
 </project>
